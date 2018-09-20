@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>File Tree Tab</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <input type="checkbox" id="open" />
+        <div class="sidebar">
+            <label class="close" for="open">
+                <div class="icon">+</div>
+            </label>
+            <div class="view">
+                <div class="folder">
+                    <input type="checkbox" id="folder_frontend" />
+                    <label class="label" for="folder_frontend"> <i class="material-icons hide">folder</i><i class="material-icons show">folder_open</i>
+                        <div class="text">Front End</div>
+                    </label>
+                    <div class="file">
+                        <div class="text">File 1</div>
+                    </div>
+                    <div class="file">
+                        <div class="text">File 2</div>
+                    </div>
+                    <div class="file">
+                        <div class="text">File 3</div>
+                    </div>
+                </div>
+                <div class="folder">
+                    <input type="checkbox" id="folder_backend" />
+                    <label class="label" for="folder_backend"> <i class="material-icons hide">folder</i><i class="material-icons show">folder_open</i>
+                        <div class="text">Back End</div>
+                    </label>
+                    <div class="file">File 1</div>
+                    <div class="folder">
+                        <input type="checkbox" id="folder_inner" />
+                        <label class="label" for="folder_inner"> <i class="material-icons hide">folder</i><i class="material-icons show">folder_open</i>
+                            <div class="text">Inside Folder</div>
+                        </label>
+                        <div class="file">File 1</div>
+                        <div class="file">File 1</div>
+                    </div>
+                </div>
+                <div class="folder">
+                    <input type="checkbox" id="folder_build" />
+                    <label class="label" for="folder_build"><i class="material-icons hide">folder</i><i class="material-icons show">folder_open</i>
+                        <div class="text">Build </div>
+                    </label>
+                    <div class="file">File 1</div>
+                    <div class="file">File 2</div>
+                    <div class="file">File 3</div>
+                </div>
+            </div>
+        </div>
+        <div class="content"></div>
+    </div>
+</body>
+
+</html>
